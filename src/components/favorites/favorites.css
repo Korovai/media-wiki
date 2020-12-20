@@ -1,0 +1,42 @@
+.wrFavorites {
+  position: relative;
+  width: 40%;
+  height: 360px;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 30px 15px 15px;
+  background: #ffdc7c;
+}
+
+.favoritesTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+  color: #000;
+  text-align: center;
+}
+
+.favoritesTitle .MuiSvgIcon-root {
+  margin-right: 5px;
+}
+
+/* ================================================== /*
+ * @MEDIA SCREEN AND (max-width:991px)
+/* ================================================== */
+@media screen and (max-width: 991px) {
+  .wrFavorites {
+    width: 90%;
+    margin: 10px 0;
+  }
+}
+
+/* ================================================== /*
+ * @MEDIA SCREEN AND (max-width:468px)
+/* ================================================== */
+@media screen and (max-width: 468px) {
+  .wrFavorites {
+    padding: 15px 10px;
+  }
+}

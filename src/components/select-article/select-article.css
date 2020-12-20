@@ -1,0 +1,32 @@
+.selectArticle {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c4a95f;
+  border-radius: 4px;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.titleArticle {
+  border-bottom: 1px solid #c4a95f;
+  padding: 5px 0;
+}
+
+.wordCountArticle {
+  padding: 5px 0;
+  font-size: 0.75rem;
+}
+
+.snippetArticle {
+  height: 100px;
+  border-radius: 4px;
+  margin: 5px 0;
+  padding: 5px;
+  overflow-y: scroll;
+  background: #fff;
+}
+
+.saveBtn {
+  margin-top: 5px;
+  background: #7540ee !important;
+}

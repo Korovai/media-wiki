@@ -1,0 +1,42 @@
+.wrSearchArticles {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-height: 360px;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 30px 15px 15px;
+  background: #ffdc7c;
+}
+
+.searchArticleTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  color: #000;
+  text-align: center;
+}
+
+.searchArticleTitle .MuiSvgIcon-root {
+  margin-right: 5px;
+}
+
+/* ================================================== /*
+ * @MEDIA SCREEN AND (max-width:991px)
+/* ================================================== */
+@media screen and (max-width: 991px) {
+  .wrSearchArticles {
+    width: 90%;
+    margin: 0;
+  }
+}
+
+/* ================================================== /*
+ * @MEDIA SCREEN AND (max-width:468px)
+/* ================================================== */
+@media screen and (max-width: 468px) {
+  .wrSearchArticles {
+    padding: 15px 10px;
+  }
+}
