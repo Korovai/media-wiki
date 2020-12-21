@@ -35,9 +35,12 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '0.75rem !important'
   },
   wrFavoritesItem: {
-    height: '320px',
+    height: '305px',
     padding: '5px',
     overflowY: 'scroll'
+  },
+  favoritesItem: {
+    margin: '5px 0'
   }
 }));
 
